@@ -1,0 +1,87 @@
+body {
+    background-color: #c1235e;
+}
+
+.img-container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.img-container a{
+  display: block;
+}
+
+.img{
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.img.img1{
+  padding-bottom:5%;
+  background-image: url('../img/img_1.jpg');
+}
+
+.img.img2{
+  padding-bottom:21%;
+  background-image: url('../img/img_2.jpg');
+}
+
+.img.img3{
+  padding-bottom:4%;
+  background-image: url('../img/img_3.jpg');
+}
+
+.img.img4{
+  padding-bottom:12%;
+  background-image: url('../img/img_4.jpg');
+  position: relative;
+}
+
+.img.img5{
+  padding-bottom:6%;
+  background-image: url('../img/img_5.jpg');
+  position: relative;
+}
+
+.link_email{
+		background-color: transparent;
+	    bottom: 24.1%;
+	    height: 14.2%;
+	    position: absolute;
+	    right: 35.9%;
+	    width: 27.5%;
+	}
+
+.link_page{
+		background-color: transparent;
+	    bottom: 8.2%;
+	    height: 13.2%;
+	    position: absolute;
+	    right: 35.9%;
+	    width: 27.5%;
+	}
+
+.link_insta{
+		background-color: transparent;
+	    bottom: 26.1%;
+	    height: 38.2%;
+	    position: absolute;
+	    right: 63.9%;
+	    width: 11.5%;
+	}
+
+.link_fb{
+	background-color: transparent;
+	    bottom: 21.1%;
+	    height: 37.2%;
+	    position: absolute;
+	    right: 24.9%;
+	    width: 12.5%;
+	}
+
+
